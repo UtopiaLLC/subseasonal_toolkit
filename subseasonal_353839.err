@@ -1,0 +1,25 @@
+[NbConvertApp] Converting notebook /share/desa/yz443/subseasonal_toolkit/subseasonal_toolkit/models/multillr/multillr.ipynb to script
+[NbConvertApp] Writing 29582 bytes to /share/desa/yz443/subseasonal_toolkit/subseasonal_toolkit/models/multillr/multillr.py
+mv: cannot stat '~': No such file or directory
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+chown: invalid group: ‘yz443:sched_mit_hill’
+slurmstepd: error: *** JOB 353839 ON joachims-cpu-02 CANCELLED AT 2022-01-04T05:00:44 DUE TO TIME LIMIT ***

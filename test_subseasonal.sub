@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH -J subseasonal                         # Job name
+#SBATCH -o subseasonal_%j.out                  # output file (%j expands to jobID)
+#SBATCH -e subseasonal_%j.err                  # error log file (%j expands to jobID)
+#SBATCH --mail-type=ALL                      # Request status by email 
+#SBATCH --mail-user=yz443@cornell.edu        # Email address to send results to.
+#SBATCH -N 1                                 # Total number of nodes requested
+#SBATCH -n 1                                 # Total number of cores requested
+#SBATCH --get-user-env                       # retrieve the users login environment
+#SBATCH --mem=32000                           # server memory requested (per node)
+#SBATCH -t 48:00:00                           # Time limit (hh:mm:ss)
+#SBATCH --partition=default_partition       # Request partition
+/share/desa/yz443/subseasonal_toolkit/test_subseasonal.sh
