@@ -164,7 +164,7 @@ def get_target_dates(date_str="std_test", horizon=None):
         year yyyy is defined as 52 predictions weekly starting from the first Wednesday in January 
         '''
         multiyear_dates = []
-        for y in range(2011, 2021):
+        for y in range(2011, 2012):
             ystart = first_day_of_week(y, day_of_week="Wednesday") 
             dates = [ystart + timedelta(days=x) for x in range(0, 364, 7)]
             multiyear_dates += dates
