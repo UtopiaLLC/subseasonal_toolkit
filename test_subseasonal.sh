@@ -1,2 +1,2 @@
 #!/bin/bash
-python3 -m subseasonal_toolkit.generate_predictions -t std_paper -u -m multillr > test_subseasonal_out.txt
+python3 "/share/desa/yz443/subseasonal_toolkit/subseasonal_toolkit/models/multillr/multillr.py" us_tmp2m 34w -t std_paper --margin_in_days 28 --metric rmse --criterion mean --x_cols '[ones,' tmp2m_clim, tmp2m_shift29, tmp2m_shift58, rhum_shift30, pres_shift30, subx_cfsv2_tmp2m-14.5d_shift15, subx_cfsv2_tmp2m-0.5d_shift15, mei_shift45, phase_shift17, sst_2010_1_shift30, sst_2010_2_shift30, sst_2010_3_shift30, icec_2010_1_shift30, icec_2010_2_shift30, icec_2010_3_shift30, hgt_10_2010_1_shift30, 'hgt_10_2010_2_shift30]' > test_subseasonal_out.txt
